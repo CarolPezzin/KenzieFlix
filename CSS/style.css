@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    background: black;
+    width: 99vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 1280px;
+    height: 720px;
+    background: #121214;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+    margin-top: 50px;
+    background: url(./logo\ 1.png);
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(https://fonts.google.com/specimen/IBM+Plex+Sans);
+}
+
+h2 {
+    margin-top: 50px;
+    width: 334px;
+    height: 42px;
+    left: 464px;
+    top: 183px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.caixa {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 700px;
+    height: 194px;
+    justify-content: space-between;
+}
+
+.caixa1 {
+    width: 160px;
+    height: 160px;
+}
+
+.caixa-imagem1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 8%;
+}
+
+.zoom {
+    transition: transform .9s;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.caixa-nome1 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+button {
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-top: 100px;
+    width: 206px;
+    height: 50px;
+    background: black;
+    overflow: visible;
+}
